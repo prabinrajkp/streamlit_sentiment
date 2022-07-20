@@ -93,7 +93,8 @@ def convert(text):
     return text
     
 def dataclean(df):
-	
+
+	df=df[['ID','User Name','Text','Star',]]
 	df['Text'].apply(preprocess)
 	df['Text']= df['Text'].apply(demoji)
 	df['senti_text']= df['Text'].apply(convert)
