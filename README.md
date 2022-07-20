@@ -9,7 +9,11 @@ That is, If a user gives a positive review for a particular app and he reted it 
 By clicking on the **Run model** button the user can see the output generated for the default data 
 The app also provides an option to **uplod coustom data** in the prefered format and **upload and run** button can be used to run the model on given data.
 
-go to [Streamlit_sentiment](https://prabinrajkp-streamlit-sentiment-app-pcxqkk.streamlitapp.com/)
+Other than transformers we have used pandas, numpy,regex and nltk for data preprocessing and streamlit was used to deploy the app and streamlit ws used to deploy the app
+
+
+
+go to [Streamlit_sentiment](https://prabinrajkp-streamlit-sentiment-app-pcxqkk.streamlitapp.com/) to se the app
 
 **NB: The model might take some time on running the custom data**
 
