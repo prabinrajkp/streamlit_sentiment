@@ -10,7 +10,7 @@ import numpy as np
 st.markdown('# App Review Sentiment Detection')
 st.write('The app will return the contradictory reviews where the sentiment of the review is positive but the star rating provided for it is not matching. The ***Run model*** buttonbutton shows result for given sample data and user can upload and run the model for custom data using ***upload and run***  also the user can download resulting data using the download button')
 
-st.write(go to the [Github](https://github.com/prabinrajkp/streamlit_sentiment) to see more details)
+st.write('go to the [Github](https://github.com/prabinrajkp/streamlit_sentiment) to see more details')
 
 st.markdown('---')
 
